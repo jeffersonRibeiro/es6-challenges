@@ -1,0 +1,24 @@
+{
+  "name": "es6-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha ./**/*.test.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersonRibeiro/es6-chanlenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffersonRibeiro/es6-chanlenges/issues"
+  },
+  "homepage": "https://github.com/jeffersonRibeiro/es6-chanlenges#readme"
+}

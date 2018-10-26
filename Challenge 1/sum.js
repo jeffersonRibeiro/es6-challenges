@@ -10,15 +10,8 @@ Use ES6 whenever possible.
 
 // Write code here
 const sum = (...args) => {
-  console.log(args.reduce((sum, arg) => sum += arg, 0));
+  return args.reduce((sum, arg) => sum += arg, 0);
 }
+  
 
-
-sum(1, 3);
-//4
-
-sum(10, 20, 5);
-//35
-
-sum(2, 5, 80, 1, 10, 12);
-//110
+module.exports = sum;
