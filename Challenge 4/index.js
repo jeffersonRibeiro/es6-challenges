@@ -6,12 +6,13 @@ Error after the line 20 should still be generated.
 
 "use strict";
 
-var a = 5,
-  b = 10;
+let
+a = 5,
+b = 10;
 
 if (b > a) {
-  c = a + b + c;
   let c = 2;
+  c = a + b + c;
   console.log(c);
   // BEFORE: Uncaught ReferenceError: c is not defined
   // AFTER: 17
