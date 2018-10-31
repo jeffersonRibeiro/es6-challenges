@@ -13,6 +13,15 @@ var obj = {
 };
 
 // Write mult() function here
+const mult = (obj) => {
+  const {
+    x,
+    y,
+    z
+  } = obj;
+
+  return x * y * z;
+}
 
 console.log(mult(obj));
 // 300
