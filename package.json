@@ -5,12 +5,11 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^5.2.0",
-    "mocha-clearscreen-reporter": "^1.0.1"
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "mocha ./**/*.test.js",
-    "test:watch": "npm run test -- --watch --reporter mocha-clearscreen-reporter"
+    "test:watch": "npm run test -- --watch --reporter=spec"
   },
   "repository": {
     "type": "git",

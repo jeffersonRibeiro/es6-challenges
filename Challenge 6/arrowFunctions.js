@@ -6,11 +6,11 @@ where possible.
 
 "use strict";
 
-function mult(a, b) {
-  return a * b;
-}
+const mult = (a, b) => a * b;
 
-setTimeout(function() {
-  console.log(mult(5, 10));
-}, 1000);
+setTimeout(() => mult(5, 10), 1000);
 // 50
+
+module.exports = {
+  mult
+}
