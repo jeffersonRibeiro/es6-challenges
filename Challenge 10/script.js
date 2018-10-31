@@ -6,9 +6,7 @@ using destructuring and rest operator.
 
 "use strict";
 
-var a, b, c;
-
-var arr = [1, 2, 3, 4, 5, 6, 7];
+var [a, b, ...c]  = [1, 2, 3, 4, 5, 6, 7];
 
 // Write code here
 
