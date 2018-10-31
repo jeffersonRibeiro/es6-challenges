@@ -12,6 +12,8 @@ b = [4, 5];
 c = [8, 9, 10];
 d = 11;
 
+arr = [0, ...a, 3, ...b, 6, 7, ...c, d]
+
 // Write code here
 
 console.log(arr);
