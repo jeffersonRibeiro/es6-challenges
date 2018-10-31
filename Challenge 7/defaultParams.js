@@ -10,19 +10,8 @@ in the multiplyBy() function.
 
 "use strict";
 
-function multiplyBy(a, mult) {
-  mult = mult !== undefined ? mult : 2;
-  console.log(a * mult);
+const multiplyBy = (a, mult = 2) => a * mult;
+console.log(multiplyBy(2, undefined))
+module.exports = {
+  multiplyBy
 }
-
-multiplyBy(2);
-// 4
-
-multiplyBy(2, undefined);
-// 4
-
-multiplyBy(2, 0);
-// 0
-
-multiplyBy(5, 10);
-// 50
